@@ -1,0 +1,32 @@
+body {
+  background-color: #E8E4E0;
+}
+
+h1{
+  background-color: #555548;
+  color: white;
+  text-align: left;
+}
+
+h2{
+  background-color: #C5C4B2;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: #555548;
+    color: white;
+  }
+  .dogcolumn img {
+    width: 100%;
+  }
+}
+
+/*.dogcolumn img, .dogcolumn p {
+  float: left;
+}
+
+.dogfacts {
+  clear: both;
+}
